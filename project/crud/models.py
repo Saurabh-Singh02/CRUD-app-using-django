@@ -7,3 +7,7 @@ class Employee(models.Model):
     econtact = models.CharField(max_length=15)  
     class Meta:  
         db_table = "employee"  
+        
+def __str__(self):
+    return self.name
+       
